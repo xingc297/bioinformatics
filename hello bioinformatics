@@ -17,3 +17,9 @@ print("Searching for TP53:")
 for gene in genes:
     if gene == "TP53":
         print("Found:", gene)
+
+print("Genes starting with B:")
+
+for gene in genes:
+    if gene.startswith("B"):
+        print(gene)
