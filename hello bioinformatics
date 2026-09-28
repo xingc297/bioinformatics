@@ -1,0 +1,8 @@
+print("Hello, Bioinformatics!")
+
+genes = ["TP53", "BRCA1", "EGFR", "MYC"]
+
+print("My first gene list:")
+print(genes)
+
+print("Number of genes:", len(genes))
