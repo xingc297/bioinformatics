@@ -6,3 +6,14 @@ print("My first gene list:")
 print(genes)
 
 print("Number of genes:", len(genes))
+genes.append("KRAS")
+print(genes)
+
+for gene in genes:
+    print(gene)
+
+print("Searching for TP53:")
+
+for gene in genes:
+    if gene == "TP53":
+        print("Found:", gene)
